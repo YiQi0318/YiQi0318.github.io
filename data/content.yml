@@ -1,0 +1,117 @@
+########################## hero area ##########################
+hero:
+  title: "Qi, Yi"
+
+  # animated text loop
+  occupations:
+    - 'PhD student at the University of Liverpool'
+    - 'Safety AI/ML field researcher'
+    - 'Breeder of two kittens'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/gus_small.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/profile.jpg'
+  title: 'THIS IS ME'
+  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out by email yiqi (at) liverpool.ac.uk #on [LinkedIn, Github, or by email](#contact)!
+  button:
+    enable: true
+    label: 'My Google Schoolar'
+    link: https://scholar.google.com/citations?user=MMv8mhMAAAAJ&hl=en
+    icon: 'fa-graduation-cap'
+
+###########################3 Experience ##############################
+experience:
+  enable: true
+  title: 'Education'
+  experience_list:
+    - name: PhD student 
+      institution: University of Liverpool, UK
+      duration: '2021-Current'
+      content: I am a PhD student at Department of Computer Science, University of Liverpool, supervised by [Prof. Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/) and [Dr. Xingyu Zhao](https://www.xzhao.me/).
+       I am also a member of [Trustworthy ACPSLab](https://cgi.csc.liv.ac.uk/~acps/home/) at UOL.
+       My research interest is safety assurance of ML model and explainable AI for deep learning based automous systems.
+
+    - name: M.Sc degree
+      institution: Brunel University London, UK
+      duration: '2019-2020'
+      #content: Okay. This is hard to explain but I’m going to give it a shot. You and I are opening our own private detective agency.
+      content: My major is Automotive and Motorsport Engineering.
+    # - name: Pharmaceutical Salesman
+    #   company: South Coast Pharmaceuticals
+    #   duration: '2012-2018'
+    #   content: We are not bounty hunters, Shawn. I am a pharmaceutical salesman. And Lassiter made it very clear! He said in no uncertain terms. These are certain terms, Shawn! Certain terms!
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'SOME SKILLS'
+  showpercent: false
+  skill_list:
+    - name: 'Python'
+      percentage: '75%'
+
+    - name: 'PyTorch and Tensorflow'
+      percentage: '65%'
+
+    - name: 'MATLAB and ANSYS'
+      percentage: '70%'
+
+    - name: 'AutoCAD, SolidWorks and Creo Parametric'
+      percentage: '85%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '2'
+
+    - name: 'REPOSITORIES BUILT'
+      image: 'images/icons/web-development.png'
+      count: '5'
+
+    - name: 'Member OF ORGANIZATIONS'
+      image: 'images/icons/mobile-app.png'
+      count: '1'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'MY WORK'
+  portfolio_list:
+    - name: Trustworthy ACPSLab introduction demo at DIF (Digital Innovation Facility)
+      image: 'images/portfolio/dif_robots.jpg'
+      url: https://www.youtube.com/watch?v=E95vh5sxs7I&t=5s
+      description: An unmanned ground vehicle equipped with a high-resolution camera and a laser sensor. The robot's missions include recognising traffic signs and autonomous parking.
+      personal_contribution: Assist Dr. Yi Dong to complete the realization of Jackal's autonomous parking and obstacle avoidance functions.
+
+    - name: SPACE
+      image: 'images/portfolio/space_project.png'
+      url: https://cgi.csc.liv.ac.uk/~acps/projects-post/SPACE/
+      description: Fully Decentralised Distributed Learning for Tradeoff of Privacy, Accuracy, Communication Complexity, and Efficiency
+      personal_contribution: Conduct member inference attack on the model in order to evaluate the privacy of the model.
+
+    # - name: Just A Design
+    #   image: 'images/portfolio/design.png'
+    #   description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+############################# publication ################################
+publication:
+  enable: true
+  title: 'MY RESEARCH'
+  publication_list:
+    - name: A Hierarchical HAZOP-Like Safety Analysis for Learning-Enabled Systems
+      image: 'images/hills_image.png'
+      url: https://ceur-ws.org/Vol-3215/7.pdf
+      description: A new Hierarchical HAZOP-Like method for LESs (HILLS) to deal with the complexity of LESs (Learning-Enabled Systems).
+
+
+# 2. personal_contribution not show on site
+# 3. publication not show on site (or link to google scholar)
